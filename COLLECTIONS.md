@@ -12,14 +12,14 @@ collection rather than reuse its record only has to put the file back where the 
 
 | collection | tokens | what it is | where it came from |
 | --- | ---: | --- | --- |
-| `fw2` | 1,604,461,673 | FineWeb-2 Indonesian — a web crawl nobody here made | [fineweb2-ind.parquet](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2/resolve/main/data/ind_Latn/train/000_00000.parquet) |
-| `wiki:id` | 221,539,630 | Indonesian Wikipedia — modern encyclopedic prose | [idwiki.xml.bz2](https://dumps.wikimedia.org/idwiki/latest/idwiki-latest-pages-articles.xml.bz2) |
-| `ia` | 13,249,262 | Internet Archive Indonesian books — literature, and the register a newspaper never reaches | [archive-id](https://archive.org/search?query=mediatype%3Atexts+AND+language%3A%22Indonesian%22) |
-| `wikisource:id` | 5,469,045 | Indonesian Wikisource — same Wikimedia family, so it corroborates rather than counts | [idwikisource.xml.bz2](https://dumps.wikimedia.org/idwikisource/latest/idwikisource-latest-pages-articles.xml.bz2) |
-| `lz:ind_news_2023_1M` | 3,571,928 | Leipzig ind_news_2023_1M — modern news, cited by the page each sentence came from | [ind_news_2023_1M](https://downloads.wortschatz-leipzig.de/corpora/ind_news_2023_1M.tar.gz) |
-| `lz:ind_news_2024_1M` | 3,104,721 | Leipzig ind_news_2024_1M — modern news, cited by the page each sentence came from | [ind_news_2024_1M](https://downloads.wortschatz-leipzig.de/corpora/ind_news_2024_1M.tar.gz) |
-| `ebible:ind` | 521,758 | Terjemahan Baru — a family nothing else here belongs to | [ind_vpl.txt](https://ebible.org/Scriptures/ind_vpl.zip) |
-| `tat` | 150,569 | Tatoeba Indonesian — contemporary and conversational | [ind_sentences.tsv](https://downloads.tatoeba.org/exports/per_language/ind/ind_sentences.tsv.bz2) |
+| `fw2` | 1,604,461,673 |  | — |
+| `wiki:id` | 221,539,630 |  | — |
+| `ia` | 31,505,015 | Internet Archive Indonesian books — literature, and the register a newspaper never reaches | [archive-id](https://archive.org/search?query=mediatype%3Atexts+AND+language%3A%22Indonesian%22) |
+| `wikisource:id` | 5,469,045 |  | — |
+| `lz:ind_news_2023_1M` | 3,571,928 |  | — |
+| `lz:ind_news_2024_1M` | 3,104,721 |  | — |
+| `ebible:ind` | 521,758 |  | — |
+| `tat` | 150,569 |  | — |
 
 Totals are playable tokens after folding, not bytes. A collection missing from this table was
 never scanned; one present with no link was fetched by hand and its path is given instead.
